@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PM2.5 細懸浮微粒資訊專區</title>
+<meta name="description" content="PM2.5細懸浮微粒資訊網站範本">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="notice">【本頁為網站範本，正式發布前請更新聯絡方式、即時監測數據及公告內容。】</div>
+
+<header>
+  <a class="logo" href="#top"><b>PM</b><span>PM2.5 細懸浮微粒資訊專區<small>PM2.5 AIR QUALITY INFORMATION</small></span></a>
+  <button id="menuBtn">☰ 選單</button>
+  <nav id="nav">
+    <a href="#about">快速看懂</a><a href="#monitor">監測數據</a><a href="#sources">污染來源</a>
+    <a href="#health">健康提醒</a><a href="#charts">數據圖表</a><a href="#official">官方資訊</a>
+  </nav>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="heroText">
+    <span class="kicker">AIR QUALITY × EASY READING</span>
+    <h1>PM2.5 是什麼？<br><em>用最簡單的方式看懂空氣。</em></h1>
+    <p>PM2.5 是粒徑小於或等於 2.5 微米的細懸浮微粒。這個網站用大字體、顏色與圖表，協助民眾快速了解 PM2.5、AQI 與生活中的空氣品質。</p>
+    <div class="actions"><a href="#monitor">查看示範數據</a><a class="light" href="#health">我該注意什麼？</a></div>
+    <p class="demo">● 本頁數值為「示範資料」，正式使用請串接環境部或實際測站即時資料。</p>
+  </div>
+  <figure class="heroPhoto">
+    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/PM2.5-3.jpg?width=1200" alt="臺灣空氣污染與PM2.5情境照片">
+    <figcaption><b>看得見的霧霾，不一定等於 PM2.5</b><span>真正濃度仍要以監測儀器數據判斷</span></figcaption>
+  </figure>
+</section>
+
+<section class="section" id="about">
+  <div class="title"><div><span class="kicker">PM2.5 BASICS</span><h2>先用 4 張卡片快速看懂</h2></div><p>先掌握一般民眾最需要知道的重點。</p></div>
+  <div class="cards four">
+    <article><i>🔬</i><h3>PM2.5 是什麼？</h3><strong>≤ 2.5 μm</strong><p>細懸浮微粒的粒徑非常小，可長時間懸浮在空氣中。</p></article>
+    <article><i>🚗</i><h3>從哪裡來？</h3><strong>多種污染來源</strong><p>交通、道路揚塵、營建、工業、露天燃燒與境外污染都可能影響。</p></article>
+    <article><i>🫁</i><h3>為什麼要注意？</h3><strong>粒徑很小</strong><p>可深入呼吸系統，空氣品質不佳時敏感族群更應留意。</p></article>
+    <article><i>📱</i><h3>怎麼知道狀況？</h3><strong>看 AQI ＋ PM2.5</strong><p>可利用環境部空氣品質監測網查看最新測站資訊。</p></article>
+  </div>
+
+  <div class="sizeBox">
+    <div><span class="kicker pale">HOW SMALL?</span><h3>2.5 微米到底有多小？</h3><p>PM2.5 的「2.5」代表粒徑小於或等於 2.5 微米，因此無法只靠肉眼判斷。</p></div>
+    <div class="sizeArt"><div class="hair">頭髮直徑<br>約數十微米</div><div class="pm">PM2.5<br>≤2.5μm</div></div>
+  </div>
+</section>
+
+<section class="dark" id="monitor">
+ <div class="section">
+  <div class="title lightTitle"><div><span class="kicker pale">DEMO MONITOR</span><h2>現在的 PM2.5 狀況</h2></div><b class="badge">示範資料｜非官方即時值</b></div>
+  <div class="monitor">
+    <article class="mainValue">
+      <div class="row"><span>PM2.5 小時濃度</span><b>普通</b></div>
+      <div class="number">18 <small>μg/m³</small></div>
+      <p>示範數值僅供版面展示；正式判讀請搭配 AQI 與官方即時監測資訊。</p>
+      <div class="scale"><i></i><i class="active"></i><i></i><i></i><i></i><i></i></div>
+      <div class="labels"><span>良好</span><span>普通</span><span>敏感族群</span><span>不健康</span><span>非常不健康</span><span>危害</span></div>
+    </article>
+    <div class="metrics">
+      <article><span>AQI</span><strong>62</strong><small>空氣品質指標</small></article>
+      <article><span>PM10</span><strong>34</strong><small>μg/m³</small></article>
+      <article><span>溫度</span><strong>29.6</strong><small>°C</small></article>
+      <article><span>相對濕度</span><strong>71</strong><small>%</small></article>
+    </div>
+  </div>
+  <div class="updated"><span>示範測站：PM2.5 教學站</span><span>示範更新時間：2026/08/18 13:00</span></div>
+ </div>
+</section>
+
+<section class="section" id="sources">
+ <div class="title"><div><span class="kicker">WHERE IT COMES FROM</span><h2>PM2.5 可能從哪裡來？</h2></div><p>環境部列出的常見來源包含交通污染、營建施工、工業污染、境外污染與露天燃燒。</p></div>
+ <div class="cards five">
+   <article><i>🚘</i><h3>交通與道路</h3><p>車輛排放廢氣及道路揚塵都可能造成粒狀污染。</p></article>
+   <article><i>🏗️</i><h3>營建施工</h3><p>施工、拆除與裸露地表若管理不當，可能增加粒狀物。</p></article>
+   <article><i>🏭</i><h3>工業污染</h3><p>燃燒與製程排放可能形成直接或二次細懸浮微粒。</p></article>
+   <article><i>🔥</i><h3>露天燃燒</h3><p>燃燒廢棄物或農業剩餘物可能產生煙霧與細懸浮微粒。</p></article>
+   <article><i>🌏</i><h3>境外污染</h3><p>污染物可能受季風與長程傳輸影響臺灣空氣品質。</p></article>
+ </div>
+</section>
+
+<section class="photoBand">
+ <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Air%20quality%20monitoring%20facilities%20of%20EPA%20in%20Taichung.jpg?width=1400" alt="臺灣空氣品質監測設施照片">
+ <div><span class="kicker pale">AIR MONITORING</span><h2>PM2.5 要靠監測設備，不是只看天空顏色。</h2><p>空氣品質監測站持續量測污染物濃度，並透過監測資料提供 AQI 與各污染物資訊。正式網站可進一步串接政府開放資料。</p><div class="chips"><span><b>PM₂.₅</b> 細懸浮微粒</span><span><b>PM₁₀</b> 懸浮微粒</span><span><b>AQI</b> 空氣品質指標</span></div></div>
+</section>
+
+<section class="section" id="health">
+ <div class="title"><div><span class="kicker">HEALTH GUIDE</span><h2>空氣不好時，我可以怎麼做？</h2></div><p>健康活動建議應以環境部即時 AQI 指示為準。</p></div>
+ <div class="health">
+  <article><i>🏃</i><div><h3>戶外活動前先看 AQI</h3><p>空氣品質變差時，可依官方建議調整戶外活動時間與強度。</p></div></article>
+  <article><i>👵</i><div><h3>敏感族群更要注意</h3><p>老人、兒童及有心肺相關疾病者，空氣品質不佳時應特別留意身體反應。</p></div></article>
+  <article><i>📲</i><div><h3>使用官方即時資訊</h3><p>不要只憑肉眼判斷霧霾，請查看環境部 AQI 與污染物監測值。</p></div></article>
+  <article><i>🌿</i><div><h3>從生活減少污染</h3><p>減少露天燃燒、維持車輛正常保養，並多使用大眾運輸。</p></div></article>
+ </div>
+</section>
+
+<section class="charts" id="charts"><div class="section">
+ <div class="title"><div><span class="kicker">VISUAL DATA</span><h2>數據變成圖，一眼就懂</h2></div><p>下列數值均為網頁功能展示用示範資料。</p></div>
+ <div class="chartGrid">
+  <article class="chartCard wide"><h3>近 24 小時 PM2.5 濃度趨勢 <small>μg/m³</small></h3><canvas id="trendChart"></canvas></article>
+  <article class="chartCard"><h3>今日空品時數分布</h3><div class="pieLayout"><canvas id="pieChart"></canvas><div class="legend"><span><i class="g"></i>良好 <b>9 小時</b></span><span><i class="y"></i>普通 <b>13 小時</b></span><span><i class="o"></i>敏感族群 <b>2 小時</b></span></div></div></article>
+  <article class="chartCard"><h3>主要粒狀污染物比較</h3><div class="bars"><div><span>PM2.5</span><i><b style="width:53%"></b></i><em>18</em></div><div><span>PM10</span><i><b style="width:100%"></b></i><em>34</em></div></div><p class="help">不同污染物的數字不可單靠大小直接判斷健康影響，仍應依 AQI 指標判讀。</p></article>
+ </div>
+</div></section>
+
+<section class="section" id="official">
+ <div class="title"><div><span class="kicker">OFFICIAL INFORMATION</span><h2>需要最新數值，請看官方資料</h2></div><p>正式即時監測值建議使用環境部公開資料。</p></div>
+ <div class="official">
+  <a href="https://airtw.moenv.gov.tw/" target="_blank"><i>🌤️</i><span><b>環境部空氣品質監測網</b><small>查看全臺最新 AQI、PM2.5、PM10、O₃ 等資訊。</small></span>↗</a>
+  <a href="https://airtw.moenv.gov.tw/CHT/Information/Standard/AirQualityIndicatorNew.aspx" target="_blank"><i>📊</i><span><b>AQI 指標說明</b><small>了解污染物、AQI 分級與健康活動建議。</small></span>↗</a>
+  <a href="https://data.moenv.gov.tw/" target="_blank"><i>💾</i><span><b>環境資料開放平臺</b><small>未來可研究串接政府公開資料自動更新。</small></span>↗</a>
+ </div>
+ <p class="credit"><b>照片：</b>Wikimedia Commons「PM2.5-3.jpg」與臺中空氣品質監測設施照片；正式發布請依原頁面授權條款標示。</p>
+</section>
+</main>
+
+<footer><div><b>PM2.5 細懸浮微粒資訊專區</b><p>看懂空氣．掌握資訊．安心生活</p></div><div>【本頁為網站範本，正式發布前請更新聯絡方式、即時監測數據及公告內容。】</div></footer>
+<script src="script.js"></script>
+</body></html>
